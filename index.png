@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade with Munaaf</title>
+    
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1025652723570124');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1025652723570124&ev=PageView&noscript=1"
+    /></noscript>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0b111e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            color: #ffffff;
+        }
+
+        .card {
+            background-color: #161f30;
+            border: 1px solid #232d42;
+            border-radius: 24px;
+            padding: 35px 25px;
+            width: 100%;
+            max-width: 380px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .avatar-container {
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 18px auto;
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+            overflow: hidden;
+        }
+
+        .avatar-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .subtitle-list {
+            font-size: 14px;
+            color: #d1d5db;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+
+        .btn-join {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(90deg, #5061ff 0%, #00b2ff 100%);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 14px 24px;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(0, 178, 255, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+        .btn-join:active {
+            transform: scale(0.98);
+        }
+
+        .telegram-icon {
+            width: 22px;
+            height: 22px;
+            background-color: #ffffff;
+            color: #00b2ff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .timer-text {
+            color: #9ca3af;
+            font-size: 13px;
+            margin-top: 18px;
+        }
+
+        .footer {
+            margin-top: 35px;
+            text-align: center;
+            color: #9ca3af;
+            font-size: 12px;
+            line-height: 1.8;
+            max-width: 380px;
+        }
+
+        .footer a {
+            color: #10b981;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="avatar-container">
+            <img src="logo.png" alt="Trade with Munaaf">
+        </div>
+
+        <h1 class="title">👑Trade with Munaaf👑</h1>
+
+        <div class="subtitle-list">
+            <p>Start Earning with Expert Calls🔥</p>
+            <p>Trusted by 12,000+ Traders🌍</p>
+            <p>Join our Channel for daily updates✅</p>
+        </div>
+
+        <a href="https://t.me/+F-zl6svjckphOWY1" class="btn-join" onclick="fbq('track','Lead')">
+            <span class="telegram-icon">➤</span>
+            Join Now Free
+            <span class="telegram-icon">➤</span>
+        </a>
+
+        <div class="timer-text">Redirecting in <span id="countdown">28</span> seconds...</div>
+    </div>
+
+    <div class="footer">
+        <p>This channel is for educational and informational purposes only.</p>
+        <p>ads Managed by <a href="https://t.me/+jE7sEbzR23gwM2U1">Kunal</a></p>
+    </div>
+
+    <script>
+        // Countdown timer functionality
+        let seconds = 28;
+        const countdownEl = document.getElementById('countdown');
+        const timer = setInterval(() => {
+            seconds--;
+            if (countdownEl) countdownEl.innerText = seconds;
+            if (seconds <= 0) {
+                clearInterval(timer);
+            }
+        }, 1000);
+    </script>
+
+</body>
+</html>
