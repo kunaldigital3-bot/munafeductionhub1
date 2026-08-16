@@ -144,8 +144,7 @@
 
     <div class="card">
         <div class="avatar-container">
-            <!-- Online logo URL updated below -->
-            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Trade with Munaaf">
+            <img src="logo.png" alt="Trade with Munaaf">
         </div>
 
         <h1 class="title">👑Trade with Munaaf👑</h1>
