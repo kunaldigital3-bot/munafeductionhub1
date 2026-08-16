@@ -59,6 +59,7 @@
             border-radius: 50%;
             border: 2px solid #ffffff;
             overflow: hidden;
+            background-color: #232d42;
         }
 
         .avatar-container img {
@@ -143,7 +144,8 @@
 
     <div class="card">
         <div class="avatar-container">
-            <img src="logo.png" alt="Trade with Munaaf">
+            <!-- Online logo URL updated below -->
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Trade with Munaaf">
         </div>
 
         <h1 class="title">👑Trade with Munaaf👑</h1>
@@ -154,7 +156,7 @@
             <p>Join our Channel for daily updates✅</p>
         </div>
 
-        <a href="https://t.me/+5HJFzOruRAA2M2Vl" class="btn-join" onclick="fbq('track','Lead')">
+        <a href="https://t.me/+F-zl6svjckphOWY1" class="btn-join" onclick="fbq('track','Lead')">
             <span class="telegram-icon">➤</span>
             Join Now Free
             <span class="telegram-icon">➤</span>
@@ -169,7 +171,6 @@
     </div>
 
     <script>
-        // Countdown timer functionality
         let seconds = 28;
         const countdownEl = document.getElementById('countdown');
         const timer = setInterval(() => {
